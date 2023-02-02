@@ -103,16 +103,16 @@ public class Venturelli
 	{
 		String[] parole = new String [6];
 				
-				for(int i=0; i < parole.length; i++)
-				{
-					System.out.println("Inserire la parola " + i);
+		for(int i=0; i < parole.length; i++)
+		{
+			System.out.println("Inserire la parola " + i);
 					parole[i]=in.nextLine();
-				}
+		}
 				
-				swapCaratteri(parole);
+		swapCaratteri(parole);
 				
-				for(int i=0; i < parole.length; i++)
-					System.out.println(parole[i]);
+		for(int i=0; i < parole.length; i++)
+			System.out.println(parole[i]);
 	}
 		
 	
